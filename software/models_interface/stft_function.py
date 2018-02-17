@@ -41,7 +41,8 @@ def main(inputFile = '../../sounds/piano.wav', window = 'hamming', M = 1024, N =
 	plt.figure(figsize=(12, 9))
 
 	# frequency range to plot
-	maxplotfreq = 5000.0
+	#maxplotfreq = 5000.0
+        maxplotfreq = 300.0  #500 doesn't work
 
 	# plot the input sound
 	plt.subplot(4,1,1)
